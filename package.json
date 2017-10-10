@@ -1,0 +1,37 @@
+{
+    "name": "interviewprepmeanapp",
+    "version": "1.0.0",
+    "description": "Sample Mean App for Dummy Question Paper",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/beingdeep/InterviewPrep.git"
+    },
+    "keywords": [
+        "Node.js",
+        "express",
+        "angular2",
+        "mongodb"
+    ],
+    "author": "Deep Dey",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/beingdeep/InterviewPrep/issues"
+    },
+    "homepage": "https://github.com/beingdeep/InterviewPrep#readme",
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "ejs": "^2.5.7",
+        "express": "^4.16.1",
+        "mongojs": "^2.4.1",
+        "nodemon": "^1.12.1",
+        "cors": "*",
+        "bcryptjs": "*",
+        "jsonwebtoken": "*",
+        "passport": "*",
+        "passport-jwt": "*"
+    }
+}
